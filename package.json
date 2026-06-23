@@ -1,0 +1,24 @@
+{
+  "name": "action-branch-name",
+  "version": "1.0.0",
+  "description": "Github action to enforce naming convention on branch names",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "actions"
+  ],
+  "author": "step-security",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^1.1.0",
+    "axios": "^1.18.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.44.0"
+  }
+}
